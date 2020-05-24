@@ -4,7 +4,7 @@ This is a great application that explores Mysql, Express, Handlebars and ORM. He
 
 ## Getting Started
 
-The Burger Heaven application is deployed to Heroku. It is then hosted by their server and can be accessed by a typical web address: ADD ADDRESS HERE
+The Burger Heaven application is deployed to Heroku. It is then hosted by their server and can be accessed by a typical web address: https://burger-heaven.herokuapp.com/
 
 ## Contributions
 
