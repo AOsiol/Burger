@@ -22,7 +22,7 @@ $(function () {
 
     var newBurger = {
       burger_name: $("#ca").val().trim(),
-      devoured: $("[name=devoured]:checked").val().trim(),
+      // devoured: $("[name=devoured]:checked").val().trim(),
     };
 
     $.ajax("/api/burgers", {
@@ -34,4 +34,9 @@ $(function () {
       location.reload();
     });
   });
+});
+
+$("#devoured").on("click", function (event) {
+  event.preventDefault();
+  burger_name.append(devoured);
 });
